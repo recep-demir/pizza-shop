@@ -1,24 +1,17 @@
 import "../styles/Menu.css";
-import MenuList from "../helpers/MenuList";
-
-
-
 import React from 'react'
+import MenuItem from "./MenuItem";
 
-
-const Menu = () => {
+const Menu = ({menuList,title}) => {
   return (
     <div className="menu" id="menu">
-      <h1>Our Menu</h1>
+      <h1 className="menuTitle">Our Menu</h1>
       <div className="menuList">
+        { 
+          menuList.map((item, index)=><MenuItem key={index} {...item}/>)
+        }
         
-
-
       </div>
-      
-
-      
-
     
     </div>
   )

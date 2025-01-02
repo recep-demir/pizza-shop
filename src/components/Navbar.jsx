@@ -6,11 +6,11 @@ const Navbar = () => {
     return ( 
     <div className="navbar">
       <div className="leftSide" id="logo">
-        <img src={Logo} alt="logo" />
+        <a href=""><img src={Logo} alt="logo" /></a>
         
       </div>
       <div className="rightSide">
-        <a href="#home"> Home </a>
+        <a href=".#home"> Home </a>
         <a href="#menu"> Menu </a>
         <a href="#about"> About </a>
         

@@ -9,6 +9,12 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+scroll-margin-top: 10vh;
+}
+
+#home{
+    padding-top: 10vh; /* Navbar yüksekliği kadar boşluk */
+  margin-top: 10vh; 
 }
 
 .headerContainer {

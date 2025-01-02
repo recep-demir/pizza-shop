@@ -3,6 +3,7 @@ import "../styles/Home.css";
 
 const Home = () => {
     return (
+      
         <div className="home" id="home" style={{ backgroundImage: `url(${BannerImage})` }}>
       <div className="headerContainer">
         <h1> Noname's Pizzeria </h1>

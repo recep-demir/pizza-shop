@@ -1,0 +1,38 @@
+.about {
+    width: 100%;
+     height: 100vh; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+  }
+  
+  .aboutTop {
+    width: 100%;
+    height: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .aboutBottom {
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .aboutBottom p {
+    width: 90%; /* Daha uyumlu görünüm için genişlik */
+    max-width: 1200px;
+  }
+  
+  .about .aboutBottom h1 {
+    font-weight: 400;
+    font-size: 70px;
+    color: black;
+    margin-bottom: 20px; /* Boşluk */
+    display: flex;
+    justify-content: center;
+  }
