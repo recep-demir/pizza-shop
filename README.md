@@ -1,3 +1,5 @@
+![Homepage Screenshot](./public/image.png)
+
 
 # Noname's Pizzeria
 
