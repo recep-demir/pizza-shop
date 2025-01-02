@@ -14,21 +14,6 @@ const Home = () => {
       </div>
     </div>
 
-
-
-
-
-
-
-        // <div className="home">
-        //     <div className="banner">
-        //         <img src={BannerImage} alt="banner" />
-        //     </div>
-        //     <div className="content">
-        //         <h1> Welcome to Pizza Place </h1>
-        //         <p> The best pizza in town </p>
-        //     </div>
-        // </div>
     );
 }
 

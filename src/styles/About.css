@@ -24,7 +24,7 @@
   }
   
   .aboutBottom p {
-    width: 90%; /* Daha uyumlu görünüm için genişlik */
+    width: 90%; 
     max-width: 1200px;
   }
   
@@ -32,7 +32,7 @@
     font-weight: 400;
     font-size: 70px;
     color: black;
-    margin-bottom: 20px; /* Boşluk */
+    margin-bottom: 20px; 
     display: flex;
     justify-content: center;
   }

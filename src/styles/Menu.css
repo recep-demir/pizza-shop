@@ -1,6 +1,6 @@
 .menu {
   width: 100%;
-  min-height: 100vh; /* Tam ekran yüksekliğini garanti eder */
+  min-height: 100vh; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,8 +16,8 @@
 .menuList {
   width: 70vw;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Yan yana 3 sütun */
-  gap: 20px; /* Sütunlar arası boşluk */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
   place-items: center;
 }
 
@@ -51,15 +51,15 @@
   margin-top: 5px;
 }
 
-/* Responsive Tasarım */
+
 @media only screen and (max-width: 1300px) {
   .menuList {
-    grid-template-columns: repeat(2, 1fr); /* 2 sütun */
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media only screen and (max-width: 800px) {
   .menuList {
-    grid-template-columns: 1fr; /* 1 sütun */
+    grid-template-columns: 1fr; 
   }
 }

@@ -11,13 +11,8 @@ function App() {
     <div className="App">
       <Navbar />
       <Home />
-      
       <Menu menuList ={MenuList} />
       <About />
-
-      
-      
-      
       
     </div>
   );
